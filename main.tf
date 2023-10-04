@@ -14,8 +14,8 @@ provider "shoreline" {
   debug = true
 }
 
-module "generic_title_password_authentication_failure_for_postgres_user" {
-  source    = "./modules/generic_title_password_authentication_failure_for_postgres_user"
+module "password_authentication_failure_for_postgres_user" {
+  source    = "./modules/password_authentication_failure_for_postgres_user"
 
   providers = {
     shoreline = shoreline
